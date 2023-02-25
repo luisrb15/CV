@@ -10,7 +10,7 @@ function Photo(props) {
             />
         </div>
     );
-    
+     
 }
 
 export default Photo;
