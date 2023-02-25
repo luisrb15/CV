@@ -1,0 +1,17 @@
+.circle {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pd-v-20{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

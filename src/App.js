@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { Container, Photo } from './components';
+// import { resizeFile } from './helpers';
+import Selfie from './img/Selfie.jpg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+       {/* Clase container luego como componente Container que reciba hijos para alinear con flexbox */}
+      <Container>
+        <Photo src={Selfie} type="circle" />  
+      </ Container>
+      
+      <div className="color-line">
+      </div>
     </div>
   );
 }

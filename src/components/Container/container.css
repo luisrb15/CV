@@ -1,0 +1,18 @@
+.container {
+    /* Estilos en mobile y generales */
+    display: flex;
+    flex-direction: row;
+    /* Solo estilos que cambian al pasa los x px */
+    /* div:first-child {
+        background: red;
+        min-width: 30px;
+    }
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+    } */
+}
+
+.container div:first-child {
+    background-color:  #974646;
+    width: 300px;
+}
